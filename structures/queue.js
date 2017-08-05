@@ -1,4 +1,4 @@
-class Stack {
+class Queue {
 
   constructor() {
     this.elements = [];
@@ -7,7 +7,7 @@ class Stack {
   add(element) {
     this
       .elements
-      .unshift(element);
+      .push(element);
   }
 
   remove() {
@@ -15,6 +15,7 @@ class Stack {
       .elements
       .pop();
   }
+
 }
 
-module.exports = Stack;
+module.exports = Queue;

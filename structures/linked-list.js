@@ -1,8 +1,7 @@
 class ListNode {
 
-    constructor(data, next) {
+    constructor(data) {
         this.data = data;
-        this.next = next;
     }
 }
 
@@ -15,7 +14,7 @@ class LinkedList {
 
     add(element) {
 
-        let node = new ListNode(element, null);
+        let node = new ListNode(element);
 
         if (!this.firstElement) {
             this._addFirstElementOfList(node);
@@ -45,7 +44,7 @@ class LinkedList {
     }
 
     addFirst(element) {
-        let node = new ListNode(element, null);
+        let node = new ListNode(element);
 
         if (!this.firstElement) {
             this._addFirstElementOfList(node);
@@ -99,7 +98,13 @@ class LinkedList {
     print() {
         let tempElement = this.firstElement;
         while (tempElement) {
-            console.log(tempElement.data);
+            console.log("--------------------");
+            console.log("NODE:" + tempElement.data);
+            let next = (tempElement.next && tempElement.next.data)
+                ? tempElement.next.data
+                : null;
+            console.log('-> next: ' + next);
+            console.log("--------------------");
             tempElement = tempElement.next;
         }
     }

@@ -7,7 +7,7 @@ const sinon = require('sinon');
 chai.use(chaiAsPromised);
 const expect = chai.expect;
 
-const Queue = require('../../structures/queue-lifo');
+const Queue = require('../../structures/queue');
 
 describe('QueueLIFO', () => {
 
