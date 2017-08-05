@@ -9,7 +9,7 @@ const expect = chai.expect;
 
 const DoubleLinkedList = require('../../structures/double-linked-list');
 
-describe.only('DoubleLinkedList', () => {
+describe('DoubleLinkedList', () => {
 
     it('should instantiate a DoubleLinkedList', () => {
 
