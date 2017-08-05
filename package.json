@@ -1,0 +1,19 @@
+{
+  "name": "computer-science",
+  "version": "1.0.0",
+  "description": "\"Computer science structures and algorithms\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mjmarianetti/computer-science.git"
+  },
+  "author": "martin.marianetti@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjmarianetti/computer-science/issues"
+  },
+  "homepage": "https://github.com/mjmarianetti/computer-science#readme"
+}
