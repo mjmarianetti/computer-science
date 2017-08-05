@@ -16,6 +16,14 @@ class Queue {
       .pop();
   }
 
+  print() {
+    this
+      .elements
+      .forEach((element) => {
+        console.log(element);
+      });
+  }
+
 }
 
 module.exports = Queue;
