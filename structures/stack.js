@@ -1,6 +1,6 @@
 const Queue = require('./queue-interface');
 
-class QueueFIFO extends Queue {
+class Stack extends Queue {
 
   constructor() {
     super();
@@ -17,4 +17,4 @@ class QueueFIFO extends Queue {
   }
 }
 
-module.exports = QueueFIFO;
+module.exports = Stack;
