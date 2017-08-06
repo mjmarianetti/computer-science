@@ -1,4 +1,4 @@
-const DoubleQueue = require('../index').DoubleQueue;
+const DoubleQueue = require('../../index').DoubleQueue;
 
 let queue = new DoubleQueue();
 

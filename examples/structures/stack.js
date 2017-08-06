@@ -1,4 +1,4 @@
-const Stack = require('../index').Stack;
+const Stack = require('../../index').Stack;
 
 let stack = new Stack();
 

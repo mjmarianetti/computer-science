@@ -1,4 +1,4 @@
-const BinaryTree = require('../index').BinaryTree;
+const BinaryTree = require('../../index').BinaryTree;
 
 let btree = new BinaryTree();
 

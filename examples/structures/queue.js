@@ -1,4 +1,4 @@
-const Queue = require('../index').Queue;
+const Queue = require('../../index').Queue;
 
 let queue = new Queue();
 

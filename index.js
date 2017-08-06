@@ -3,7 +3,8 @@ const Stack = require('./structures/stack'),
     DoubleQueue = require('./structures/double-queue'),
     LinkedList = require('./structures/linked-list'),
     DoubleLinkedList = require('./structures/double-linked-list'),
-    BinaryTree = require('./structures/binary-tree');
+    BinaryTree = require('./structures/binary-tree'),
+    GreedyAlgorithm = require('./algorithms/greedy');
 
 module.exports = {
 
@@ -12,5 +13,8 @@ module.exports = {
     DoubleQueue: DoubleQueue,
     LinkedList: LinkedList,
     DoubleLinkedList: DoubleLinkedList,
-    BinaryTree: BinaryTree
+    BinaryTree: BinaryTree,
+
+
+    GreedyAlgorithm: GreedyAlgorithm
 }

@@ -1,6 +1,6 @@
-const DoubleLinkedList = require('../index').DoubleLinkedList;
+const LinkedList = require('../../index').LinkedList;
 
-let list = new DoubleLinkedList();
+let list = new LinkedList();
 
 for (let i = 1; i <= 5; i++) {
   list.add(i);
