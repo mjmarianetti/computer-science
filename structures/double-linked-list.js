@@ -44,6 +44,17 @@ class DoubleLinkedList {
     return count;
   }
 
+  searchNodeAt(position) {
+    let currentPos = 0,
+      tempElement = this.firstElement;
+
+    while (currentPos < position) {
+      tempElement = tempElement.next;
+      currentPos++;
+    }
+    return tempElement;
+  }
+
   addFirst(element) {
     let node = new ListNode(element);
 
