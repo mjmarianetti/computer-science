@@ -11,7 +11,7 @@ class Queue {
   }
 
   remove() {
-    this
+    return this
       .elements
       .pop();
   }

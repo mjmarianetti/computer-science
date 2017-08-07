@@ -291,6 +291,10 @@ class BinaryTree {
       .toString();
   }
 
+  getRoot() {
+    return this._root;
+  }
+
 }
 
 module.exports = BinaryTree;

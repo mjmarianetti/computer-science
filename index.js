@@ -5,7 +5,8 @@ const Stack = require('./structures/stack'),
   DoubleLinkedList = require('./structures/double-linked-list'),
   BinaryTree = require('./structures/binary-tree'),
   GreedyAlgorithm = require('./algorithms/greedy'),
-  KMP = require('./algorithms/kmp');
+  KMP = require('./algorithms/kmp')
+  LOT = require('./algorithms/level-order-traversal');
 
 module.exports = {
 
@@ -17,5 +18,6 @@ module.exports = {
   BinaryTree: BinaryTree,
 
   GreedyAlgorithm: GreedyAlgorithm,
-  KMP: KMP
-}
+  KMP: KMP,
+  LOT: LOT
+};
